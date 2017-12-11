@@ -1,0 +1,21 @@
+{
+    "name": "zhangyanhui111/c89",
+    "description": "c89框架",
+    "type": "project",
+    "authors": [
+        {
+            "name": "zhangyanhui111",
+            "email": "497675039@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "files":["system/helper.php"],
+        "psr-4":{
+            "houdunwang\\":"houdunwang\\",
+            "app\\":"app\\",
+            "system\\":"system\\"
+        }
+    }
+}
